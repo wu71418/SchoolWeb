@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	background-color: #7B68EE;
+}
+
+.top{
+	display: flex;
+	background-color:  #E8E8E8;
+	width: 925px;
+	height: 70px;
+	border: 2px #BEBEBE solid;
+	position: absolute;
+	top: 3%;
+	left: 26%;
+}
+
+#top_text{
+	text-align: right;
+	color: #7B68EE;
+	margin-left: 85%;
+	position: absolute;
+	top: -18%;
+}
+
+.unit{
+	position: absolute;
+	top: 10%;
+	left: 25.5%;
+}
+
+#ultitle{
+	list-style-type: none;
+}
+
+form{
+	position: absolute;
+	left: 45%;
+	top: 12%;
+}
+
+#unit_name{
+	border: none;
+	border-bottom: 1px black solid;
+}
+
+#your_opinion{
+	width: 225px;
+	height: 150px;
+}
+
+#can{
+	color: #BEBEBE;
+}
+
+#button{
+	position: absolute;
+	top: 92.5%;
+	left: 105%;
+}
+
+#letter{
+	position: absolute;
+	top: 32.5%;
+	left: 68%;
+}

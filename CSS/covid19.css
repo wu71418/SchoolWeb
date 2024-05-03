@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+#space{
+	width: 60%;
+	height: 50px;
+	background-color: white;
+	margin-top:20px;
+	margin-left: 20%;
+}
+
+#space2{
+	width: 60%;
+	height: 100px;
+	background-color: white;
+	margin-top:1%;
+	margin-left: 20%;
+	padding-top: 0.25%;
+}
+
+#top{
+	height: 35px;
+	background-color: #EEE9E9;
+	margin: 10px;
+}
+
+#top a:hover{
+	color: #CDC9C9;
+}
+
+#bigbox{
+	width: 60%;
+	height: auto;
+	background-color: white;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+#covid{
+	width: 10%;
+	height: auto;
+	text-align: center;
+	border-top: 3px #FF7F00 solid;
+	margin-left: 47%;
+	font-weight: bold;
+}
+
+#system{
+	width: 25%;
+	height: auto;
+	text-align: center;
+	margin-left: 40%;
+	font-weight: bold;
+}
+
+#plan{
+	width: 95%;
+	text-align: center;
+	margin-left: 2%;
+	font-weight: bold;
+	height: 70px;
+}
+
+#plan div{
+	background-color: #FFFACD;
+	height: 50px;
+	border-left: 10px #76EEC6 solid;
+	padding-top: 3%;
+}
+
+#plan a{
+	color: blue;
+}
+
+#bigbox img{
+	padding-top: 3.5%;
+	margin-left: 5%;
+}
+
+#SOP{
+	width: 6%;
+	height: auto;
+	text-align: center;
+	border-top: 3px #FF7F00 solid;
+	margin-left: 47%;
+	font-weight: bold;
+	margin-top: 2.5%;
+}
+
+.photo{
+	width: 60%;
+	height: 720px;
+}
+
+.photo img{
+	position: absolute;
+	left: 17.5%;
+	width: 55%;
+}
+
+#title{
+	width: 15%;
+	height: auto;
+	text-align: center;
+	border-top: 3px #FF7F00 solid;
+	margin-left: 41.5%;
+	font-weight: bold;
+	margin-top: 2.5%;
+}
+
+#text{
+  width:auto;
+  margin-left: 12%;
+  height: 415px;
+}
+
+#text a:hover{
+	color: white;
+	background-color: #FF7F00;
+}
+
+.more_post{
+  background-color: black;
+  color: white;
+  width: 7%;
+  text-align: right;
+  position: absolute;
+  top:345.4%;
+  left: 71.5%;
+}
+
+.more_post a{
+  color: white;
+}
+
+.more_post a:hover{
+  color: #FF7F00;
+}
+
+#bigbox2{
+	width: 60%;
+	height: auto;
+	background-color: white;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+#pic{
+	display: flex;
+	height: 730px;
+	margin-left: 3%;
+	display: inline-flex;
+	margin-top: 1%;
+}
+
+.bottom{
+  width: 84.3%;
+  margin-left: -0.5%;
+  height: auto;
+  background-color: #CD6600;
+  padding-left: 17.3%;
+}
+
+.under{
+  width:101.5%;
+  height: auto;
+  background-color: #7AC5CD;
+  margin-left: -0.5%;
+  padding-bottom: 1%;
+}

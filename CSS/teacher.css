@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+#space2{
+	width: 60%;
+	height: 100px;
+	background-color: white;
+	margin-top:1%;
+	margin-left: 20%;
+	padding-top: 0.25%;
+}
+
+#top{
+	height: 35px;
+	background-color: #EEE9E9;
+	margin: 10px;
+}
+
+#top a:hover{
+	color: #CDC9C9;
+}
+
+.news{
+  width: 60%;
+  height: 350px;
+  background-color: white;
+  margin-left: 20%;
+  margin-top: 1.5%;
+}
+
+.button{
+  margin-left: 25%;
+  display: flex;
+}
+
+#btn{
+  margin-left: 2%;
+  border-top: 5px #FF7F00 solid;
+  width: 10%;
+}
+
+#btn a{
+  text-decoration: none;
+   color: black;
+}
+
+#btn a:hover{
+  background-color: #FF7F00;
+  border: 4px #FF7F00 solid;
+  color: white;
+}
+
+#buttontext{
+  width: auto;
+  margin-left: 10%;
+  padding-top: 2%;
+}
+
+#buttontext a{
+	text-decoration: none;
+	color: black;
+}
+
+#buttontext a:hover{
+	background-color: #FF7F00;
+	color: white;
+	padding: 1%;
+}
+
+.more{
+  background-color: black;
+  color: white;
+  width: 100px;
+  text-align: center;
+  position: absolute;
+  top:139%;
+  left: 72%;
+}
+
+.more a{
+  text-decoration: none;
+  color: white;
+}
+
+.more a:hover{
+  text-decoration: none;
+  color: #FF7F00;
+}
+
+.page{
+	width: 60%;
+	height: 700px;
+	background-color: white;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+
+#top_page{
+	font-weight: bold;
+	border-bottom: 1pt black solid;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+}
+
+#title{
+	font-weight: bold;
+	color: blue;
+}
+
+#text ul{
+	padding-left: 0;
+}
+
+#box{
+	position: absolute;
+	top: 161%;
+	left:23%;
+}
+
+#box2{
+	position: absolute;
+	top: 161%;
+	left: 40%;
+}
+
+#box3{
+	position: absolute;
+	top: 161%;
+	left: 60%;
+}
+
+#box4{
+	position: absolute;
+	top: 175%;
+	left: 60%;
+}
+
+#box5{
+	position: absolute;
+	top: 200%;
+	left: 23%;
+}
+
+#box6{
+	position: absolute;
+	top: 190%;
+	left: 40%;
+}
+
+#box7{
+	position: absolute;
+	top: 210%;
+	left: 40%;
+}
+
+#box8{
+	position: absolute;
+	top: 195%;
+	left: 60%;
+}
+
+#box9{
+	position: absolute;
+	top: 205%;
+	left: 60%;
+}
+
+.bottom{
+  width: 84%;
+  margin-left: -16%;
+  height: auto;
+  background-color: #CD6600;
+  padding-left: 33.2%;
+}
+
+.under{
+  width:118%;
+  height: auto;
+  background-color: #7AC5CD;
+  margin-left: -15.5%;
+  padding-bottom: 1%; 
+}

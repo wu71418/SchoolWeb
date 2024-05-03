@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chihlee Comments</title>
+	<meta name="keywords" content="致理,科技大學,新北市的大學">
+	<meta name="description" content="企業最愛私立科技大學、教育評鑑全部一等、全國競賽獲獎數技職第一、學生證照張數全國第一、三好校園典範學校">
+	<link rel="stylesheet" type="text/css" href="CSS/letter.css">
+</head>
+
+<body>
+	
+	<div class="top">
+		<div id="top_pic">
+			<img src="share/chihleeCLogo.png" height="70px">
+			<img src="share/chihleeTitle.png" height="60px">
+		</div>
+		<div id="top_text"><h1>來信指教</h1></div>
+	</div>
+
+	<div class="unit">
+	<div id="executive">
+		<ul>
+			<li><a href="">秘書室</a></li>
+			<li><a href="">教務處</a></li>
+			<li><a href="">招生服務處</a></li>
+			<li><a href="">學生事務處</a></li>
+			<li><a href="">總務處</a></li>
+			<li><a href="">研究發展處</a></li>
+			<li><a href="">職涯發展暨校友服務處</a></li>
+			<li><a href="">國際暨兩岸交流處</a></li>
+			<li><a href="">進修部</a></li>
+			<li><a href="">圖書資訊處</a></li>
+			<li><a href="">人事室</a></li>
+			<li><a href="">會計室</a></li>
+			<li><a href="">軍訓室</a></li>
+			<li><a href="">推廣教育處</a></li>
+			<li><a href="">教學發展中心</a></li>
+		</ul>
+	</div>
+	</div>
+
+	<form id="opinion" action="newtext.txt" method="post">
+		<table class="opinion">
+		<tr>
+			<th>單位名稱<strong>*</strong></th>
+			<td id="require"><input type="text" name="unit_name" id="unit_name"></td>
+		</tr>
+		<tr>
+			<th>主旨<strong>*</strong></th>
+			<td id="require"><input type="text" name="title"></td>
+		</tr>
+		<tr>
+			<th>您的寶貴意見<strong>*</strong></th>
+			<td id="require"><input type="text" name="your_opinion" id="your_opinion"></td>
+		</tr>
+		<tr>
+			<th>您的E-mail<strong>*</strong></th>
+			<td id="require"><input type="email" name="email"></td>
+		</tr>
+		<tr id="can"><th>(請填寫，以便該單位回覆您)</th></tr>
+		<tr>
+			<th>您的電話<strong>*</strong></th>
+			<td id="require"><input type="text" name="phone"></td>
+			<tr id="can"><th>(請填寫，以便該單位回覆您)</th></tr>
+		</tr>
+		<tr>
+			<th>您的姓名</th>
+			<td><input type="text" name="name"></td>
+			<th id="can">(可不填)</th>
+		</tr>
+	</table>
+	<input type="submit" name="button" value="送出" id="button">
+	</form>
+	<img src="letter/letter.png" id="letter">
+
+</body>
+</html>
